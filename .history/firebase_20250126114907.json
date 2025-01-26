@@ -1,0 +1,21 @@
+{
+    "hosting": {
+      "public": "build",
+      
+      "site": "financefrenzy-admin",
+      "ignore": [
+        "firebase.json",
+        "**/.*",
+        "**/node_modules/**"
+      ],
+  
+      "rewrites": [
+        {
+          "source": "**",
+          "destination": "/index.html"
+        }
+      ]
+  
+    }
+  }
+  
